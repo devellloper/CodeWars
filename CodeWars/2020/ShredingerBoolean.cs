@@ -3,7 +3,7 @@
 namespace CodeWars
 {
 
-	public partial class Kata_2020_Jan
+	public partial class Kata_2020
 	{
 
 		/// <summary>

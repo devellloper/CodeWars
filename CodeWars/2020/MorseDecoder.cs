@@ -4,13 +4,13 @@ using Xunit;
 namespace CodeWars
 {
 
-	public partial class Kata_2020_Jan
+	public partial class Kata_2020
 	{
 
 		/// <summary>
 		/// Kata #54b724efac3d5402db00065e <a href="https://www.codewars.com/kata/54b724efac3d5402db00065e">Decode the Morse code </a>
 		/// </summary>
-		[Theory]
+		[Theory(Skip = "Part of code in static class codewars")]
 		[InlineData(".... . -.--   .--- ..- -.. .", "HEY JUDE")]
 		public void MorseDecoder(string morseCode, string expected)
 		{
@@ -28,6 +28,8 @@ namespace CodeWars
 			string result = sb.ToString();
 			Assert.Equal(expected, result);
 		}
+
+
 
 	}
 
